@@ -53,7 +53,7 @@ int main()
         printf("Digite a origem e destino da aresta %d (exemplo: 1 2): ", i);
         scanf("%d %d", &origem, &destino);
         if(ponderado){
-            printf("DIgite o peso da aresta: ");
+            printf("Digite o peso da aresta: ");
             scanf("%d", &pesoAresta);
         }
         printf("Deseja inserir outra aresta? (1-Sim | 0-Nao)\n");
